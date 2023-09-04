@@ -1,8 +1,8 @@
 import React from "react";
-import {Tilt} from "react-tilt";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
-import { github } from "../assets";
+import { github, demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_demo
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,7 +34,7 @@ const ProjectCard = ({
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex  justify-between gap-3 m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='bg-gradient-to-tr from-black to-slate-700 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border-4'
@@ -42,6 +43,16 @@ const ProjectCard = ({
                 src={github}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain '
+              />
+            </div>
+            <div
+              onClick={() => window.open(live_demo, "_blank")}
+              className='bg-gradient-to-tr from-black to-slate-700 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:border-4'
+            >
+              <img
+                src={demo}
+                alt='live demo'
+                className='overflow-hidden rounded-full'
               />
             </div>
           </div>
@@ -97,4 +108,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, '');
+export default SectionWrapper(Works, 'work');

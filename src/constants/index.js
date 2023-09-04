@@ -19,7 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  mirrorGen,
   jobit,
   tripguide,
   threejs,
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Smart Contract Developer",
     icon: creator,
   },
 ];
@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Self employed",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -198,28 +198,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Birthday Mirror Surface",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An application to generate your birthday mirror surface and download or mint it",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "text-slate-600",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "react three fiber",
+        color: "text-slate-700",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "text-slate-800",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: mirrorGen,
+    source_code_link: "https://github.com/freesultan/Birthday-mirror-nft",
+    live_demo: "https://birthday-nft.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "To Do",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -240,7 +241,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "To Do",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
