@@ -29,6 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import mirrorGen from "./mirrorGen.png";
+import cardGame from  './cardGame.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -63,5 +64,6 @@ export {
   mirrorGen,
   jobit,
   tripguide,
-  demo
+  demo,
+  cardGame
 };

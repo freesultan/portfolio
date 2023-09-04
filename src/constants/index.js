@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  cardGame,
 } from "../assets";
 
 export const navLinks = [
@@ -220,25 +221,22 @@ const projects = [
     live_demo: "https://birthday-nft.netlify.app/",
   },
   {
-    name: "To Do",
+    name: "Memory card game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple memory card game using composition api in vuejs",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "vue",
+        color: "text-slate-800",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+        name: "tailwindcss",
+        color: "text-slate-600",
+      } 
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: cardGame,
+    source_code_link: "https://github.com/freesultan/simple_card_game",
+    live_demo: 'https://vue-card-memgame.netlify.app/'
   },
   {
     name: "To Do",
