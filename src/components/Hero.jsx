@@ -31,9 +31,9 @@ const Hero = () => {
 
       <ComputersCanvas />
 
-      <div className="absolute bottom-1 w-full flex justify-center items-center">
+      <div className="absolute bottom-4  w-full flex justify-center items-center">
         <a href="#about">
-          <div className="border-4  border-slate-400 rounded-2xl p-2 w-[32px] h-[64px] flex justify-center items-start ">
+          <div className="border-4 bg-neutral-900 border-slate-400 rounded-2xl p-2 w-[32px] h-[64px] flex justify-center items-start ">
             <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{

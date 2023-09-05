@@ -30,6 +30,7 @@ import tesla from "./company/tesla.png";
 
 import mirrorGen from "./mirrorGen.png";
 import cardGame from  './cardGame.png'
+import wordGen from './wordGen.png'
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -65,5 +66,6 @@ export {
   jobit,
   tripguide,
   demo,
-  cardGame
+  cardGame,
+  wordGen
 };

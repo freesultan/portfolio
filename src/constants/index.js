@@ -20,7 +20,7 @@ import {
   tesla,
   shopify,
   mirrorGen,
-  jobit,
+  wordGen,
   tripguide,
   threejs,
   cardGame,
@@ -222,8 +222,7 @@ const projects = [
   },
   {
     name: "Memory card game",
-    description:
-      "A simple memory card game using composition api in vuejs",
+    description: "A simple memory card game using composition api in vuejs",
     tags: [
       {
         name: "vue",
@@ -232,32 +231,37 @@ const projects = [
       {
         name: "tailwindcss",
         color: "text-slate-600",
-      } 
+      },
     ],
     image: cardGame,
     source_code_link: "https://github.com/freesultan/simple_card_game",
-    live_demo: 'https://vue-card-memgame.netlify.app/'
+    live_demo: "https://vue-card-memgame.netlify.app/",
   },
   {
-    name: "To Do",
+    name: "Word Generator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A starter code for code generator which takes characters and generates all three letter words",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Vuejs",
+        color: "text-slate-600",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Pinia",
+        color: "text-slate-400",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "tailwindcss",
+        color: "text-slate-600",
+      },
+      {
+        name: "Vuelidate",
+        color: "text-slate-300",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wordGen,
+    source_code_link: "https://github.com/freesultan/word_generator",
+    live_demo: "https://word-gen.netlify.app/",
   },
 ];
 
