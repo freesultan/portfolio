@@ -14,8 +14,8 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 text-xl bg-slate-800">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className="relative z-0 text-xl bg-gradient-to-bl from-blue-400 via-blue-950 via-60% to-blue-400 to-90%  ">
+        <div className="  ">
           <Navbar />
           <Hero />
         </div>

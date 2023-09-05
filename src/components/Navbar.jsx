@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav
       className="px-6   sm:px-10 w-full
     flex items-center py-3 fixed top-0 z-20
-    bg-slate-900
+    
     "
     >
       <div
@@ -34,11 +34,11 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="list-none hidden text-white sm:flex flex-row gap-10 ">
+        <ul className="list-none hidden text-white sm:flex flex-row gap-10 bg-gradient-to-l from-blue-400 to-blue-900 border shadow-md p-2 rounded-lg ">
           {navLinks.map((link, index) => (
             <li
               className={`${
-                link.title === active ? "text-white" : "text-slate-400"
+                link.title === active ? "text-white" : "text-slate-900 "
               } hover:text-white text-[18px] font-medium
               `}
               key={index}
